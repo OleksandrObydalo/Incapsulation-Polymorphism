@@ -1,6 +1,6 @@
 package AbstractClasses;
 
-public abstract class Product {
+public abstract class Product implements Comparable {
     private long id;
     private String name;
     private double price;
@@ -46,4 +46,6 @@ public abstract class Product {
     }
 
     public abstract void info();
+
+
 }

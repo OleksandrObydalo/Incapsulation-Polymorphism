@@ -21,4 +21,9 @@ public class Television extends Product {
         System.out.println("It is TV:\nprice is: " + getPrice() +
                 ", and screen diagonal is: " + screenDiagonal);
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

@@ -21,4 +21,10 @@ public class Book extends Product {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }
