@@ -16,4 +16,6 @@ public interface MyOwnInterface {
     default void info() {
         System.out.println("Default method info get data: \n" + onlyInInterface());
     }
+
+
 }

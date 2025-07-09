@@ -1,5 +1,5 @@
 package MultiIheritance;
 
 public interface FlatFigure {
-    public int area();
+    public double area();
 }
